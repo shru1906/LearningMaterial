@@ -1,0 +1,77 @@
+{
+"order":
+[{
+	"equipID":"100156789",
+	"orderNo":"40270805",
+	"orderDesc": "Test for Calibration Plant",
+	"status" : "In Calibration",
+	"techID":"T_TECH_31",
+	"strtDt": "26/01/2019",
+	"endDt" : "29/01/2019",
+	"subEquipID": "100156789"
+
+},
+{
+	"equipID":"100156765",
+	"orderNo":"40270805",
+	"orderDesc": "Test for Calibration Plant",
+	"status" : "Created",
+	"techID":"T_TECH_31",
+	"strtDt": "26/01/2019",
+	"endDt" : "29/01/2019",
+	"subEquipID": "100156789"
+
+	
+},
+{
+	"equipID":"100156711",
+	"orderNo":"40270805",
+	"orderDesc": "Test for Calibration Plant",
+	"status" : "Re-Calibration",
+	"techID":"T_TECH_31",
+	"strtDt": "26/01/2019",
+	"endDt" : "29/01/2019",
+	"subEquipID": "100156789"
+
+	
+},
+{
+	"equipID":"100156710",
+	"orderNo":"40270805",
+	"orderDesc": "Test for Calibration Plant",
+	"status" : "Released",
+	"techID":"T_TECH_31",
+	"strtDt": "26/01/2019",
+	"endDt" : "29/01/2019",
+	"subEquipID": "100156789"
+
+	
+},
+{
+	"equipID":"100152121",
+	"orderNo":"40270805",
+	"orderDesc": "Test for Calibration Plant",
+	"status" : "Ready for Review",
+	"techID":"T_TECH_31",
+	"strtDt": "26/01/2019",
+	"endDt" : "29/01/2019",
+	"subEquipID": "100156789"
+
+	
+},
+{
+	"equipID":"100156700",
+	"orderNo":"40270805",
+	"orderDesc": "Fitzmill",
+	"status" : "Ready for Review",
+	"techID":"T_TECH_31",
+	"strtDt": "26/01/2019",
+	"endDt" : "29/01/2019",
+	"subEquipID": "100156789"
+
+	
+}
+
+
+
+]}

@@ -1,0 +1,53 @@
+<mvc:View controllerName="mtable.MTable.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+								<Table id="idProductsTable" inset="false" items="{oData1>/order}" class="orderLst">
+									<columns>
+										<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+											<Text text="{i18n>equipID}" />
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Center">
+											<Text text="{i18n>OrderNo}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+											<Text text="{i18n>descrp}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+											<Text text="{i18n>status}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>techID}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>startDate}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>endDate}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>subEquipID}"/>
+										</Column>
+											</columns>
+									<items>
+										<ColumnListItem>
+												<cells>
+												<Text text="{oData1>equipID}"></Text>
+												<Text text="{oData1>orderNo}"></Text>
+												<Text text="{oData1>orderDesc}"></Text>
+												<Text text="{oData1>status}"></Text>
+												<Text text="{oData1>techID}"></Text>
+												<Text text="{oData1>strtDt}"></Text>
+												<Text text="{oData1>endDt}"></Text>
+												<Text text="{oData1>subEquipID}"></Text>
+												</cells>
+
+										</ColumnListItem>
+									</items>
+								</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+</mvc:View>
